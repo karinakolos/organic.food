@@ -1,0 +1,36 @@
+// FOOTER //
+.footer {
+  background: #fcfefd;
+  padding: 3rem 0 3rem;
+  img {
+    width: 4.37rem;
+  }
+  p {
+    padding: 1rem 6rem 1rem 0;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__items {
+    flex-basis: 17.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    &__social {
+      display: flex;
+      gap: 2rem;
+      a {
+        img {
+          width: 1.5rem;
+        }
+      }
+    }
+  }
+  &__items:nth-child(1) {
+    flex-basis: 40%;
+  }
+  &__items:nth-child(4) {
+    flex-basis: 25%;
+  }
+}

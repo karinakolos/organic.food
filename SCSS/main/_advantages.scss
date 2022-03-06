@@ -1,0 +1,47 @@
+// ADVANTAGES SECTION //
+.advantages {
+  position: relative;
+  padding-top: 8.75rem;
+  padding-bottom: 3rem;
+  span {
+    p {
+      max-width: 40rem;
+      padding: 1rem 0 3rem;
+    }
+  }
+  .h4 {
+    padding: 0.5rem 0;
+  }
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    button {
+      img {
+        width: 16px;
+      }
+    }
+  }
+  &__blocks:nth-child(1) {
+    flex-basis: 40%;
+  }
+  &__element {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 3rem;
+  }
+  &__element:nth-child(2) {
+    background-color: #f3fbf8;
+  }
+  &__vector {
+    position: absolute;
+    top: 1%;
+    right: 6%;
+    z-index: -10;
+  }
+}

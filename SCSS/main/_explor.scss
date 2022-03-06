@@ -1,0 +1,42 @@
+// EXPLOR SECTION //
+.explor {
+  position: relative;
+  background: rgba(9, 166, 109, 0.05);
+  padding-bottom: 3rem;
+  .h2 {
+    padding: 1rem 0;
+  }
+  &__item {
+    display: flex;
+    gap: 2.5rem;
+    padding: 5.5rem 0;
+  }
+  &__items {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+
+    &__button {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 4rem;
+      p {
+        font-weight: 700;
+      }
+      button {
+        background-color: $green;
+        padding: 1rem;
+        border-radius: 50%;
+        img {
+          width: 1.3rem;
+        }
+      }
+    }
+  }
+  &__background {
+    position: absolute;
+    right: 3%;
+    bottom: 0;
+  }
+}

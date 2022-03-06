@@ -1,0 +1,101 @@
+// Variables
+@import "_variables.scss";
+
+html {
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  background: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1272px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.875rem;
+  margin: 0;
+}
+
+button {
+  border: 0;
+  background: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+// add transition
+
+a {
+  text-decoration: none;
+  color: #222222;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+section {
+  padding: 1rem 0;
+  position: relative;
+}
+li {
+  list-style-type: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  display: block;
+}
+
+.h1 {
+  font-size: $h1-font-size;
+  font-weight: 600;
+  line-height: 5rem;
+}
+
+.h2 {
+  font-family: "Rosario";
+  font-size: $h2-font-size;
+  font-weight: 600;
+  line-height: 5.6rem;
+}
+
+.h3 {
+  font-size: $h3-font-size;
+  font-weight: 700;
+  line-height: 1.87rem;
+}
+
+.h4 {
+  font-size: $h4-font-size;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.h5 {
+  font-size: $h5-font-size;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.h6 {
+  font-size: $h6-font-size;
+}
